@@ -1,0 +1,100 @@
+/*home*/
+#contatoFixed{
+    display: block;
+    border-radius: 10px;
+    left: 80em;
+    bottom: 15em;
+    position: fixed;
+}
+#container {
+    height: 80vh;
+    background-image: url(https://www.sobrevivaemsaopaulo.com.br/wp-content/uploads/2023/02/cachorro-brincando-no-gramado.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+#containerHome{
+    padding-top: 125px;
+    width: 50%;
+}
+#felino{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0GXmPk2y2E1p7dJ-XvVBW4PvNIZsDAo1G0AKMCaxEGIsBhcAZfCChRFa0-qCsGTXPAvg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#cachorro{
+    background-image: url(https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2019/09/quantas-horas-um-cachorro-dorme.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+}
+#roedor{
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-f7680b68825bd98729f8f570b6799275-lq);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#aves{
+    background-image: url(https://www.petz.com.br/blog/wp-content/uploads/2019/02/periquito-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#contatos{
+    height: 200px;
+}
+
+/*consultorio*/
+
+#containerConsultorio{
+    margin-top: 10vh;
+    height: 80vh;
+}
+#consultoriobg1{
+    background-image: url(https://static.wixstatic.com/media/770b1909a10444608a39284d188e6296.jpg/v1/fill/w_640,h_918,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/770b1909a10444608a39284d188e6296.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100%;
+}
+#consultoriobg2{
+    background-image: url(https://static.wixstatic.com/media/3c2eca45c90b483b9386d2b7eef92ae2.jpg/v1/fill/w_882,h_1232,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3c2eca45c90b483b9386d2b7eef92ae2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100%;
+}
+
+/*sobre*/
+
+#sobrebg{
+    background-image: url(https://ntwcontabilidade.com.br/wp-content/uploads/2020/06/ntw-petshop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 60vh;
+    margin-top: 10vh;
+}
+/*Contato*/
+#contato{
+    width: 400px;
+}
+  
+@media screen and (max-width: 768px) {
+    #containerAnimais :nth-child(n){
+        height: 200px;
+    }
+    #containerConsultorio{
+        display: flex;
+    }
+    #containerConsultorio p{
+        font-size: 15px;
+    }
+    #consultoriobg1{
+        display: none;
+    }
+    #contato{
+        width: 300px;
+    }
+}
